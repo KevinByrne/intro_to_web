@@ -18,5 +18,7 @@ get '/another-one' do
 end
 
 get '/cat' do
-  '<img src = "https://i.imgur.com/jFaSxym.png" <style="border: dashed-red"></style></img>'
+  '<div style ="border: 3px dashed red">
+  <img src = "https://i.imgur.com/jFaSxym.png"
+  </div>'
 end

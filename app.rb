@@ -18,5 +18,6 @@ get '/another-one' do
 end
 
 get '/cat' do
+  @name = ["Amigo", "Misty", "Almond", "Tibbles", "Scratchula"].sample
   erb(:index)
 end
